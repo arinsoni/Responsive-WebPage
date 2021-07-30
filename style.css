@@ -343,10 +343,10 @@ h2 span {
 .form-control input{
   background-color: transparent;
   border: 0;
-  border-bottom: 2px #fff solid;
+  border-bottom: 3px #fff solid;
   display: block;
-  width: 100%;
-  padding: 10px 0;
+  width: 30vw;
+  padding: 10px ;
   font-size: 20px;
   color: white;
 }
@@ -378,9 +378,10 @@ h2 span {
   transform: scale(1)
 }
 #login:hover{
-  background-color: lightpink;
+ 
+  background-color: coral;
   color: white;
-  font-size: 2.5vw;
+  
 }
 
 .text {
