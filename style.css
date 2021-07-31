@@ -1,1 +1,408 @@
 
+* {
+  font-family: poppins;
+}
+
+body {
+
+  background-color: slategrey;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: black;
+  background: light;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Nav Bar */
+
+.navbar {
+  background-color: black;
+}
+
+.logo img {
+  height: 4vw;
+  width: 4vw;
+}
+
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+  color: white;
+}
+
+.navbar-nav li a:hover, .navbar-nav li a.current {
+  color: cornflowerblue
+}
+
+.fa-bars {
+  color: white;
+  font-size: 30px;
+}
+
+.navbar-toggler i:hover {
+  color: cornflowerblue
+}
+
+/* Landing image */
+
+.full-width-image {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
+  background-color: black;
+}
+
+.full-width-image img {
+  opacity: 0.4;
+  width: 100%;
+}
+
+/* Cards================================================================================*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-size: 3vw;
+  padding-top: 2vw;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.heading span {
+  color: coral;
+}
+
+.container_2 {
+  position: relative;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.block {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 2px 2px 15px 2px #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid #fff;
+  transition: all 500ms linear;
+}
+
+.bg_1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-position: center;
+  background-size: cover;
+  transition: all 400ms ease;
+}
+
+.bg_2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("https://images.unsplash.com/photo-1495954380655-01609180eda3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+  background-position: center;
+  background-size: cover;
+  transition: all 400ms ease;
+}
+
+.bg_3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("https://images.unsplash.com/photo-1512850183-6d7990f42385?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+  background-position: center;
+  background-size: cover;
+  transition: all 400ms ease;
+}
+
+.bg_4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("https://images.unsplash.com/photo-1514565131-fce0801e5785?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=824&q=80");
+  background-position: center;
+  background-size: cover;
+  transition: all 400ms ease;
+}
+
+.bg_5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("https://images.unsplash.com/photo-1543872084-c7bd3822856f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+  background-position: center;
+  background-size: cover;
+  transition: all 400ms ease;
+}
+
+.bg_6 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("https://images.unsplash.com/photo-1444723121867-7a241cacace9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-position: center;
+  background-size: cover;
+  transition: all 400ms ease;
+}
+
+.block:hover .bg_1 {
+  transform: scale(1.2);
+}
+
+.block:hover .bg_2 {
+  transform: scale(1.2);
+}
+
+.block:hover .bg_3 {
+  transform: scale(1.2);
+}
+
+.block:hover .bg_4 {
+  transform: scale(1.2);
+}
+
+.block:hover .bg_5 {
+  transform: scale(1.2);
+}
+
+.block:hover .bg_6 {
+  transform: scale(1.2);
+}
+
+/* Heading Text */
+
+.head {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  letter-spacing: 2px;
+  z-index: 20;
+}
+
+h2 {
+  padding-top: 50px;
+  text-shadow: 0 0 1px white;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transform-origin: left center;
+  transform: none;
+  transition: all 300ms ease-out;
+}
+
+h2 span {
+  font-weight: 300;
+  color: white;
+}
+
+.block:hover h2 {
+  color: #fff;
+  transform: rotate(90deg) translateY(-60px) translateX(-35px);
+}
+
+/* Heading Text */
+
+/* Icon Box */
+
+.iconBox {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 20%;
+  background-color: #fff;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transform: translateX(60px);
+  transition: all 300ms ease;
+}
+
+.block:hover .iconBox {
+  transform: translateX(0px);
+}
+
+.iconBox .icon i {
+  color: #111;
+  font-size: 20px;
+  transition: all 300ms ease;
+}
+
+.iconBox .icon i:hover {
+  color: rgb(76, 0, 255);
+  transform: scale(1.2);
+}
+
+@media (max-width: 1034px) {
+  .cards_wrap .box {
+    width: 38%;
+  }
+}
+
+@media (max-width: 868px) {
+  .cards_wrap .box {
+    width: 100%;
+    height: 33%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+/* Sliding images ========================================================================================*/
+
+.carousel-inner {
+  background-color: black;
+}
+
+.sliding_img {
+  opacity: 0.4;
+  width: 100%;
+  height: 35vw;
+}
+
+.sliding_img_text {
+  color: royalblue
+}
+
+.sliding_img_subtext {
+  color: white
+}
+
+/* Footer ========================================================================================*/
+.icons:hover{
+  color:coral
+}
+.footer_text{
+  color: white;
+}
+.footer_text p{
+  cursor: default;
+}
+.footer_text a:hover, p:hover{
+  color:coral
+}
+
+
+/* =====AboutUs======================================================================== */
+#form {
+  
+  background-color:#35424a;
+  padding:20px 40px;
+  margin-top: 5vw;
+  border-radius:25px;
+
+}
+
+#form h1 {
+  text-align:center;
+  margin-bottom:20px;
+}
+
+
+#form a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.form-control {
+  position: relative;
+  border: none;
+  background-color: transparent;
+  margin: 20px 0 40px;
+  width: 250px;
+  color: white;
+  
+}
+
+
+
+.form-control input{
+  background-color: transparent;
+  border: 0;
+  border-bottom: 3px #fff solid;
+  display: block;
+  width: 30vw;
+  padding: 10px ;
+  font-size: 20px;
+  color: white;
+}
+
+.form-control input:focus, .form-control input:valid{
+   outline: 0; /* Removing the borders while mouse click*/
+   border-bottom-color: lightblue;
+
+}
+
+#login {
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  background: lightblue;
+  padding: 15px;
+  font-family: inherit;
+  font-size: 16px;
+  border: 0;
+  border-radius: 15px;
+}
+
+#login:focus{
+  outline: 0;
+}
+
+
+#login:active{
+  transform: scale(1)
+}
+#login:hover{
+   background-color: coral;
+  color: white;
+  
+}
+
+.text {
+  margin-top: 30px;
+}
+
+.form-control label {
+  position: absolute;
+  top: 15px; 
+  left: 0;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  transition: 1.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+  color: lightblue;
+  transform: translateY(-35px);
+}
