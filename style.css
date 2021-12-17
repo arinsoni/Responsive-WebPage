@@ -1,11 +1,11 @@
 
 * {
-  font-family: poppins;
-}
+  font-family: 'Roboto Mono', monospace; }
 
 body {
 
   background-color: slategrey;
+  
 }
 
 body {
@@ -301,6 +301,7 @@ h2 span {
   color: white;
 }
 .footer_text p{
+ 
   cursor: default;
 }
 .footer_text a:hover, p:hover{
